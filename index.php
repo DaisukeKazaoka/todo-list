@@ -38,7 +38,7 @@ require "connection.php";
                 <div class="todo-item"> 
                   <form action="app/delete.php" method="POST" class="remove-to-do">
                     <input type="hidden" name="id" value="<?php echo $todo['id']; ?>" >
-                    <button type="submit">
+                    <button class="delete-todo" type="submit">
                     <span>x</span>
                     </button>
                   </form>
